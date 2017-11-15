@@ -1,4 +1,7 @@
-This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
+When you start a new software project, scalability should be an innate concern. If you pick an initial project structure that scales from the start, you won't ever run into the problem of "how do we scale this?", later down the road. 
+
+Scalable react template takes Facebook's [Create React App](https://github.com/facebookincubator/create-react-app) and makes some opinionated decisions on organizational structure. This structure takes a "container-housing approach", which means that from the components directory, each folder either contains an universal component type folder, or a container housing a specific component or "view". This project structure will help keep your application organized as it scales.
+
 
 Below you will find some information on how to perform common tasks.<br>
 You can find the most recent version of this guide [here](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).
