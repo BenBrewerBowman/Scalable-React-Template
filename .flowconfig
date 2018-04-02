@@ -1,0 +1,13 @@
+[ignore]
+; All files containing "test"
+.*/test/.*
+
+[include]
+
+[libs]
+
+[lints]
+
+[options]
+
+[strict]

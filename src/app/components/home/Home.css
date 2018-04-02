@@ -1,0 +1,31 @@
+.Intro {
+  text-align: center;
+  color: white;
+}
+
+.Intro-logo {
+  animation: Intro-logo-spin infinite 20s linear;
+  height: 250px;
+}
+
+@keyframes Intro-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.Intro-header {
+  height: 150px;
+  padding: 40px;
+}
+
+.Intro-title {
+  font-size: 1.5em;
+}
+
+.Intro-info {
+  font-size: large;
+  margin-top: 140px;
+  margin-bottom: 0;
+}
+
+

@@ -2,6 +2,18 @@ When you start a new software project, scalability should be an innate concern. 
 
 Scalable react template takes Facebook's [Create React App](https://github.com/facebookincubator/create-react-app) and makes some opinionated decisions on organizational structure. This structure takes a "container-housing approach", which means that from the components directory, each folder either contains an universal component type folder, or a container housing a specific component or "view". This project structure will help keep your application organized as it scales.
 
+Scalable-create-react-app has already taken some liberties to ensure that your app has some great libraries included right out of the box.
+
+#### Libraries Included
+
+- [Axios](https://www.npmjs.com/package/axios)
+- [Date-fns](https://date-fns.org/)
+- [Flow](https://flow.org/)
+- [Material UI](http://www.material-ui.com/#/)
+- [Lodash](https://lodash.com/)
+- [React Router](https://reacttraining.com/react-router/)
+- [Redux](https://redux.js.org/)
+
 
 Below you will find some information on how to perform common tasks.<br>
 You can find the most recent version of this guide [here](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).
